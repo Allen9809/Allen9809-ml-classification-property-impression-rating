@@ -3,15 +3,6 @@
 ## Project Overview
 This project aimed to develop a predictive model for a specific use case, focusing on population mobility prediction based on census and geographical data. The project involved several stages including data preprocessing, feature engineering, model selection, fine-tuning, and evaluation.
 
-## Project Structure
-The project is organized into several directories:
-
-1. `data/`: Contains the raw and processed datasets used in the project.
-2. `notebooks/`: Jupyter notebooks used for data exploration, preprocessing, modeling, and evaluation.
-3. `models/`: Saved model artifacts.
-4. `scripts/`: Utility scripts for data preprocessing, model training, and evaluation.
-5. `docs/`: Documentation files including this README.md.
-
 ## Setup Instructions
 To reproduce the project's results, follow these steps:
 
@@ -19,12 +10,8 @@ To reproduce the project's results, follow these steps:
 
 2. Install the required dependencies:
 
-3. Navigate to the `notebooks/` directory and execute the Jupyter notebooks in the following order:
-- Data Exploration.ipynb
-- Data Preprocessing.ipynb
-- Model Training and Evaluation.ipynb
-
-4. Alternatively, you can run the scripts in the `scripts/` directory directly from the command line:
+3. Navigate to the `/src` directory and execute the Jupyter notebooks in the following order:
+- ml-classification-property-impression-rating.ipynb
 
 ## Key Findings
 - Exploratory Data Analysis (EDA) revealed important insights into the dataset.
